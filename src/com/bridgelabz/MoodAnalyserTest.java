@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class MoodAnalyserTest {
-    MoodAnalyser mood = new MoodAnalyser("I am in Sad Mood");
+    MoodAnalyser mood = new MoodAnalyser(null);
 
     @Test
     public void givenMessage_WhenProper_ShouldReturnSad() {
